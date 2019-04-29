@@ -7,7 +7,7 @@ def my_collect(array)
   #else
   #  newArray << array[counter].upcase
   #end
-  newArray << yield array[counter]
+  newArray << yield(array[counter])
   counter+=1
   end
 newArray
